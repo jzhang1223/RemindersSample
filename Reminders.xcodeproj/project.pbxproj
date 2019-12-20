@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA325D2A238C8A62007DF845 /* AddRemindersCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA325D29238C8A62007DF845 /* AddRemindersCollectionView.swift */; };
+		EA325D2E238DB88D007DF845 /* FacebookLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA325D2D238DB88D007DF845 /* FacebookLoginView.swift */; };
+		EA325D31238DB9D4007DF845 /* FacebookCore in Frameworks */ = {isa = PBXBuildFile; productRef = EA325D30238DB9D4007DF845 /* FacebookCore */; };
+		EA325D33238DB9D4007DF845 /* FacebookLogin in Frameworks */ = {isa = PBXBuildFile; productRef = EA325D32238DB9D4007DF845 /* FacebookLogin */; };
+		EA6CAEA52380608200BC61F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6CAEA42380608200BC61F8 /* AppDelegate.swift */; };
+		EA6CAEA72380608300BC61F8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6CAEA62380608300BC61F8 /* SceneDelegate.swift */; };
+		EA6CAEAB2380608600BC61F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA6CAEAA2380608600BC61F8 /* Assets.xcassets */; };
+		EA6CAEAE2380608600BC61F8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA6CAEAD2380608600BC61F8 /* Preview Assets.xcassets */; };
+		EA6CAEB12380608600BC61F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA6CAEAF2380608600BC61F8 /* LaunchScreen.storyboard */; };
+		EA6CAEB9238060A700BC61F8 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6CAEB8238060A700BC61F8 /* HomeView.swift */; };
+		EA6CAEBB2380634200BC61F8 /* RemindersListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6CAEBA2380634200BC61F8 /* RemindersListView.swift */; };
+		EA6CAEBD2380644E00BC61F8 /* ReminderItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6CAEBC2380644E00BC61F8 /* ReminderItem.swift */; };
+		EA6CAEC12380674800BC61F8 /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6CAEC02380674800BC61F8 /* Reminder.swift */; };
+		EA6CAEC3238069C000BC61F8 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6CAEC2238069C000BC61F8 /* UserData.swift */; };
+		EA6CAEC52380EB0F00BC61F8 /* RemindersCollectionPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6CAEC42380EB0F00BC61F8 /* RemindersCollectionPage.swift */; };
+		EA6CAEC92380ED5E00BC61F8 /* RemindersList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6CAEC82380ED5E00BC61F8 /* RemindersList.swift */; };
+		EA6CAECB2380F28B00BC61F8 /* RemindersCollectionLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6CAECA2380F28B00BC61F8 /* RemindersCollectionLabel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EA325D29238C8A62007DF845 /* AddRemindersCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRemindersCollectionView.swift; sourceTree = "<group>"; };
+		EA325D2D238DB88D007DF845 /* FacebookLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookLoginView.swift; sourceTree = "<group>"; };
+		EA6CAEA12380608200BC61F8 /* Reminders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reminders.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA6CAEA42380608200BC61F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA6CAEA62380608300BC61F8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EA6CAEAA2380608600BC61F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA6CAEAD2380608600BC61F8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EA6CAEB02380608600BC61F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA6CAEB22380608600BC61F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA6CAEB8238060A700BC61F8 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		EA6CAEBA2380634200BC61F8 /* RemindersListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersListView.swift; sourceTree = "<group>"; };
+		EA6CAEBC2380644E00BC61F8 /* ReminderItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderItem.swift; sourceTree = "<group>"; };
+		EA6CAEC02380674800BC61F8 /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
+		EA6CAEC2238069C000BC61F8 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		EA6CAEC42380EB0F00BC61F8 /* RemindersCollectionPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersCollectionPage.swift; sourceTree = "<group>"; };
+		EA6CAEC82380ED5E00BC61F8 /* RemindersList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersList.swift; sourceTree = "<group>"; };
+		EA6CAECA2380F28B00BC61F8 /* RemindersCollectionLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersCollectionLabel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA6CAE9E2380608200BC61F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA325D33238DB9D4007DF845 /* FacebookLogin in Frameworks */,
+				EA325D31238DB9D4007DF845 /* FacebookCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA325D2B238DB84C007DF845 /* Reminders */ = {
+			isa = PBXGroup;
+			children = (
+				EA6CAEC42380EB0F00BC61F8 /* RemindersCollectionPage.swift */,
+				EA325D29238C8A62007DF845 /* AddRemindersCollectionView.swift */,
+				EA6CAECA2380F28B00BC61F8 /* RemindersCollectionLabel.swift */,
+				EA6CAEBA2380634200BC61F8 /* RemindersListView.swift */,
+				EA6CAEBC2380644E00BC61F8 /* ReminderItem.swift */,
+			);
+			path = Reminders;
+			sourceTree = "<group>";
+		};
+		EA325D2C238DB85B007DF845 /* FacebookLogin */ = {
+			isa = PBXGroup;
+			children = (
+				EA325D2D238DB88D007DF845 /* FacebookLoginView.swift */,
+			);
+			name = FacebookLogin;
+			sourceTree = "<group>";
+		};
+		EA6CAE982380608200BC61F8 = {
+			isa = PBXGroup;
+			children = (
+				EA6CAEA32380608200BC61F8 /* Reminders */,
+				EA6CAEA22380608200BC61F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA6CAEA22380608200BC61F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA6CAEA12380608200BC61F8 /* Reminders.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA6CAEA32380608200BC61F8 /* Reminders */ = {
+			isa = PBXGroup;
+			children = (
+				EA6CAEA42380608200BC61F8 /* AppDelegate.swift */,
+				EA6CAEA62380608300BC61F8 /* SceneDelegate.swift */,
+				EA6CAEB8238060A700BC61F8 /* HomeView.swift */,
+				EA6CAEC72380ECE000BC61F8 /* Views */,
+				EA6CAEC62380ECC100BC61F8 /* Models */,
+				EA6CAEAA2380608600BC61F8 /* Assets.xcassets */,
+				EA6CAEAF2380608600BC61F8 /* LaunchScreen.storyboard */,
+				EA6CAEB22380608600BC61F8 /* Info.plist */,
+				EA6CAEAC2380608600BC61F8 /* Preview Content */,
+			);
+			path = Reminders;
+			sourceTree = "<group>";
+		};
+		EA6CAEAC2380608600BC61F8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EA6CAEAD2380608600BC61F8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EA6CAEC62380ECC100BC61F8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EA6CAEC2238069C000BC61F8 /* UserData.swift */,
+				EA6CAEC82380ED5E00BC61F8 /* RemindersList.swift */,
+				EA6CAEC02380674800BC61F8 /* Reminder.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EA6CAEC72380ECE000BC61F8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EA325D2B238DB84C007DF845 /* Reminders */,
+				EA325D2C238DB85B007DF845 /* FacebookLogin */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA6CAEA02380608200BC61F8 /* Reminders */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA6CAEB52380608600BC61F8 /* Build configuration list for PBXNativeTarget "Reminders" */;
+			buildPhases = (
+				EA6CAE9D2380608200BC61F8 /* Sources */,
+				EA6CAE9E2380608200BC61F8 /* Frameworks */,
+				EA6CAE9F2380608200BC61F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Reminders;
+			packageProductDependencies = (
+				EA325D30238DB9D4007DF845 /* FacebookCore */,
+				EA325D32238DB9D4007DF845 /* FacebookLogin */,
+			);
+			productName = Reminders;
+			productReference = EA6CAEA12380608200BC61F8 /* Reminders.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA6CAE992380608200BC61F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Justin Zhang";
+				TargetAttributes = {
+					EA6CAEA02380608200BC61F8 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = EA6CAE9C2380608200BC61F8 /* Build configuration list for PBXProject "Reminders" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA6CAE982380608200BC61F8;
+			packageReferences = (
+				EA325D2F238DB9D4007DF845 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
+			);
+			productRefGroup = EA6CAEA22380608200BC61F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA6CAEA02380608200BC61F8 /* Reminders */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA6CAE9F2380608200BC61F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA6CAEB12380608600BC61F8 /* LaunchScreen.storyboard in Resources */,
+				EA6CAEAE2380608600BC61F8 /* Preview Assets.xcassets in Resources */,
+				EA6CAEAB2380608600BC61F8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA6CAE9D2380608200BC61F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA325D2E238DB88D007DF845 /* FacebookLoginView.swift in Sources */,
+				EA6CAEB9238060A700BC61F8 /* HomeView.swift in Sources */,
+				EA6CAEC52380EB0F00BC61F8 /* RemindersCollectionPage.swift in Sources */,
+				EA6CAECB2380F28B00BC61F8 /* RemindersCollectionLabel.swift in Sources */,
+				EA6CAEA52380608200BC61F8 /* AppDelegate.swift in Sources */,
+				EA325D2A238C8A62007DF845 /* AddRemindersCollectionView.swift in Sources */,
+				EA6CAEC3238069C000BC61F8 /* UserData.swift in Sources */,
+				EA6CAEA72380608300BC61F8 /* SceneDelegate.swift in Sources */,
+				EA6CAEC92380ED5E00BC61F8 /* RemindersList.swift in Sources */,
+				EA6CAEC12380674800BC61F8 /* Reminder.swift in Sources */,
+				EA6CAEBB2380634200BC61F8 /* RemindersListView.swift in Sources */,
+				EA6CAEBD2380644E00BC61F8 /* ReminderItem.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EA6CAEAF2380608600BC61F8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA6CAEB02380608600BC61F8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA6CAEB32380608600BC61F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA6CAEB42380608600BC61F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA6CAEB62380608600BC61F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Reminders/Preview Content\"";
+				DEVELOPMENT_TEAM = N839378RGP;
+				ENABLE_PREVIEWS = YES;
+				How_Do_I_Delete = NO;
+				INFOPLIST_FILE = Reminders/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Reminders;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA6CAEB72380608600BC61F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Reminders/Preview Content\"";
+				DEVELOPMENT_TEAM = N839378RGP;
+				ENABLE_PREVIEWS = YES;
+				How_Do_I_Delete = NO;
+				INFOPLIST_FILE = Reminders/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Reminders;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA6CAE9C2380608200BC61F8 /* Build configuration list for PBXProject "Reminders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA6CAEB32380608600BC61F8 /* Debug */,
+				EA6CAEB42380608600BC61F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA6CAEB52380608600BC61F8 /* Build configuration list for PBXNativeTarget "Reminders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA6CAEB62380608600BC61F8 /* Debug */,
+				EA6CAEB72380608600BC61F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EA325D2F238DB9D4007DF845 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/facebook/facebook-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.11.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EA325D30238DB9D4007DF845 /* FacebookCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EA325D2F238DB9D4007DF845 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookCore;
+		};
+		EA325D32238DB9D4007DF845 /* FacebookLogin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EA325D2F238DB9D4007DF845 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookLogin;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = EA6CAE992380608200BC61F8 /* Project object */;
+}
